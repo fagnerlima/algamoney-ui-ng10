@@ -27,6 +27,7 @@
     "font-awesome": "^4.7.0",
     "moment": "^2.18.1",
     "ngx-currency": "^2.2.2",
+    "primeflex": "^2.0.0-rc.1",
     "primeicons": "^4.0.0",
     "primeng": "^10.0.0-rc.3",
     "rxjs": "^6.2.1",
