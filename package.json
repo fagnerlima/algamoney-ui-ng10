@@ -26,7 +26,6 @@
     "core-js": "^3.4.2",
     "font-awesome": "^4.7.0",
     "moment": "^2.18.1",
-    "ng2-toasty": "^4.0.3",
     "ngx-currency": "^2.2.2",
     "primeicons": "^2.0.0",
     "primeng": "^9.0.3",
