@@ -1,9 +1,9 @@
 # AlgaWorks - Atualização para Angular 10
 
-1. Instalar o Angular CLI globalmente:
+1. Instalar o **@angular/cli 10** globalmente:
 
     ```
-    npm i -g @angular/cli
+    npm i -g @angular/cli@10
     ```
 
 1. Remover dependências incompatíveis e não utilizadas:
