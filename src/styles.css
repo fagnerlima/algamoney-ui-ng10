@@ -17,6 +17,7 @@ a:hover, a:focus {
 a.p-button:hover {
   background-color: #005b9f;
   color: white!important;
+  text-decoration: none;
 }
 
 a, button {
