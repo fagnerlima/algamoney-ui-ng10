@@ -40,7 +40,7 @@ label {
 
 .col-valor {
   width: 120px;
-  text-align: right;
+  text-align: right !important;
 }
 
 .col-valor-header {
@@ -49,7 +49,7 @@ label {
 
 .col-data {
   width: 120px;
-  text-align: center;
+  text-align: center !important;
 }
 
 .col-data-header {
@@ -57,12 +57,12 @@ label {
 }
 
 .col-acoes {
-  width: 100px;
-  text-align: center;
+  width: 115px;
+  text-align: center !important;
 }
 
 .col-acoes-header {
-  width: 100px;
+  width: 115px;
 }
 
 .col-acoes .p-button {
