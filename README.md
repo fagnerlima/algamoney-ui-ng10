@@ -66,10 +66,13 @@
     | ui-button | p-button |  |
     | ui-button-* | p-button-* |  |
     | ui-dropdown | p-dropdown |  |
+    | ui-message | p-message |  |
+    | ui-messages-* | p-messages-* |  |
 
     **Commits**:
 
     - [407ffa458812e1b8f313e1eff22caee52dc42c0c](https://github.com/fagnerlima/algamoney-ui-ng10/commit/407ffa458812e1b8f313e1eff22caee52dc42c0c)
+    - [65df6a4fa66968b7ddf241395f014e68ac6a266b](https://github.com/fagnerlima/algamoney-ui-ng10/commit/65df6a4fa66968b7ddf241395f014e68ac6a266b)
 
 1. Atualizar regras CSS das colunas das tabelas:
 
