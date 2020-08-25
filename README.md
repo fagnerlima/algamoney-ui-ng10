@@ -26,6 +26,9 @@
 
     ```
     ng update @angular/core @angular/cli
+    git add .
+    git commit ...
+    ng update @angular/cdk
     ```
 
 1. Adicionar as folhas de estilo do PrimeNG:
