@@ -1,18 +1,18 @@
 # AlgaWorks - Atualização para Angular 10
 
-- [ ] Instalar o **@angular/cli 10** globalmente:
+1. Instalar o **@angular/cli 10** globalmente:
 
     ```
     npm i -g @angular/cli@10
     ```
 
-- [ ] Remover dependências incompatíveis e não utilizadas:
+1. Remover dependências incompatíveis e não utilizadas:
 
     ```
     npm rm ng2-toasty
     ```
 
-- [ ] Remover os códigos das dependências removidas:
+1. Remover os códigos das dependências removidas:
 
     angular.json
     ```json
@@ -22,13 +22,13 @@
     ],
     ```
 
-- [ ] Executar os passos do [Angular Update Guide](https://update.angular.io/#9.1:10.0):
+1. Executar os passos do [Angular Update Guide](https://update.angular.io/#9.1:10.0):
 
     ```
     ng update @angular/core @angular/cli
     ```
 
-- [ ] Adicionar as folhas de estilo do PrimeNG:
+1. Adicionar as folhas de estilo do PrimeNG:
 
     ```json
     "styles": [
@@ -39,13 +39,13 @@
     ],
     ```
 
-- [ ] Instalar a dependência PrimeFlex:
+1. Instalar a dependência PrimeFlex:
 
     ```
     npm install primeflex --save
     ```
 
-- [ ] Adicionar a folha de estilo do PrimeFlex:
+1. Adicionar a folha de estilo do PrimeFlex:
 
     ```json
     "styles": [
@@ -54,7 +54,7 @@
     ]
     ```
 
-- [ ] Atualizar as classes CSS do PrimeNG:
+1. Atualizar as classes CSS do PrimeNG:
 
     | Deprecated | v10 | Observação |
     |-|-|-|
@@ -69,10 +69,16 @@
 
     **Commits**:
 
-    - [407ffa458812e1b8f313e1eff22caee52dc42c0c](https://github.com/fagnerlima/algamoney-ui-ng10/commit/407ffa458812e1b8f313e1eff22caee52dc42c0c)
+    - [407ffa458812e1b8f313e1eff22caee52dc42c0c](/commit/407ffa458812e1b8f313e1eff22caee52dc42c0c)
 
-- [ ] Atualizar regras CSS das colunas das tabelas:
+1. Atualizar regras CSS das colunas das tabelas:
 
     **Commits**:
 
-    - [611ebfdf7b5a55ea5d0837398f50a0385778d346](https://github.com/fagnerlima/algamoney-ui-ng10/commit/611ebfdf7b5a55ea5d0837398f50a0385778d346)
+    - [611ebfdf7b5a55ea5d0837398f50a0385778d346](/commit/611ebfdf7b5a55ea5d0837398f50a0385778d346)
+
+1. Atualizar regra CSS do botão-link:
+
+    **Commits**:
+
+    - [c2fd8d9787349fab7a4362dbe13728c6880517eb](/commit/c2fd8d9787349fab7a4362dbe13728c6880517eb)
