@@ -85,3 +85,9 @@
     **Commits**:
 
     - [c2fd8d9787349fab7a4362dbe13728c6880517eb](https://github.com/fagnerlima/algamoney-ui-ng10/commit/c2fd8d9787349fab7a4362dbe13728c6880517eb)
+
+1. Corrigir regra CSS de `.container`:
+
+    **Commits**:
+
+    - [06c1e18668c9d0b925766912c88abe6b2053988b](https://github.com/fagnerlima/algamoney-ui-ng10/commit/06c1e18668c9d0b925766912c88abe6b2053988b)
