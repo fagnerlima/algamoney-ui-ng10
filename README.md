@@ -69,16 +69,16 @@
 
     **Commits**:
 
-    - [407ffa458812e1b8f313e1eff22caee52dc42c0c](/commit/407ffa458812e1b8f313e1eff22caee52dc42c0c)
+    - [407ffa458812e1b8f313e1eff22caee52dc42c0c](https://github.com/fagnerlima/algamoney-ui-ng10/commit/407ffa458812e1b8f313e1eff22caee52dc42c0c)
 
 1. Atualizar regras CSS das colunas das tabelas:
 
     **Commits**:
 
-    - [611ebfdf7b5a55ea5d0837398f50a0385778d346](/commit/611ebfdf7b5a55ea5d0837398f50a0385778d346)
+    - [611ebfdf7b5a55ea5d0837398f50a0385778d346](https://github.com/fagnerlima/algamoney-ui-ng10/commit/611ebfdf7b5a55ea5d0837398f50a0385778d346)
 
 1. Atualizar regra CSS do botão-link:
 
     **Commits**:
 
-    - [c2fd8d9787349fab7a4362dbe13728c6880517eb](/commit/c2fd8d9787349fab7a4362dbe13728c6880517eb)
+    - [c2fd8d9787349fab7a4362dbe13728c6880517eb](https://github.com/fagnerlima/algamoney-ui-ng10/commit/c2fd8d9787349fab7a4362dbe13728c6880517eb)
