@@ -14,7 +14,7 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-a.ui-button:hover {
+a.p-button:hover {
   background-color: #005b9f;
   color: white!important;
 }
@@ -27,7 +27,7 @@ label {
   font-weight: bold;
 }
 
-.ui-dropdown-filter-container {
+.p-dropdown-filter-container {
   width: 100%;
 }
 
@@ -65,7 +65,7 @@ label {
   width: 100px;
 }
 
-.col-acoes .ui-button {
+.col-acoes .p-button {
   margin: 1px;
 }
 
@@ -73,7 +73,7 @@ label {
   margin: 5px;
 }
 
-.cadastro-acoes .ui-button {
+.cadastro-acoes .p-button {
   margin-right: 5px;
 }
 
