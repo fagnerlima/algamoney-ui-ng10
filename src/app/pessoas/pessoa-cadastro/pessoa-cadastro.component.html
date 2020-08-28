@@ -1,12 +1,12 @@
 <div class="container">
   <form #f="ngForm" autocomplete="off" (ngSubmit)="salvar(f)">
 
-    <div class="ui-g">
-      <div class="ui-g-12">
+    <div class="p-grid">
+      <div class="p-col-12">
         <h1>Nova Pessoa</h1>
       </div>
 
-      <div class="ui-g-12 ui-fluid">
+      <div class="p-col-12 p-fluid">
         <label>Nome</label>
         <input pInputText type="text" name="nome"
           [(ngModel)]="pessoa.nome"
@@ -18,7 +18,7 @@
           text="Mínimo de {{ nome.errors?.minlength?.requiredLength }} caracteres"></app-message>
       </div>
 
-      <div class="ui-g-12 ui-md-9 ui-fluid">
+      <div class="p-col-12 p-md-9 p-fluid">
         <label>Logradouro</label>
         <input pInputText type="text" name="logradouro"
           [(ngModel)]="pessoa.endereco.logradouro"
@@ -28,7 +28,7 @@
           text="Informe o logradouro"></app-message>
       </div>
 
-      <div class="ui-g-12 ui-md-3 ui-fluid">
+      <div class="p-col-12 p-md-3 p-fluid">
         <label>Número</label>
         <input pInputText type="text" name="numero"
           [(ngModel)]="pessoa.endereco.numero"
@@ -38,13 +38,13 @@
           text="Informe o número"></app-message>
       </div>
 
-      <div class="ui-g-12 ui-md-4 ui-fluid">
+      <div class="p-col-12 p-md-4 p-fluid">
         <label>Complemento</label>
         <input pInputText type="text" name="complemento"
         [(ngModel)]="pessoa.endereco.complemento">
       </div>
 
-      <div class="ui-g-12 ui-md-4 ui-fluid">
+      <div class="p-col-12 p-md-4 p-fluid">
         <label>Bairro</label>
         <input pInputText type="text" name="bairro"
           [(ngModel)]="pessoa.endereco.bairro"
@@ -54,7 +54,7 @@
           text="Informe o bairro"></app-message>
       </div>
 
-      <div class="ui-g-12 ui-md-4 ui-fluid">
+      <div class="p-col-12 p-md-4 p-fluid">
         <label>CEP</label>
         <p-inputMask name="cep" mask="99.999-999"
           [(ngModel)]="pessoa.endereco.cep"
@@ -64,7 +64,7 @@
           text="Informe o CEP"></app-message>
       </div>
 
-      <div class="ui-g-12 ui-md-6 ui-fluid">
+      <div class="p-col-12 p-md-6 p-fluid">
         <label>Estado</label>
 
         <p-dropdown placeholder="Selecione..."
@@ -77,7 +77,7 @@
           text="Informe o estado"></app-message>
       </div>
 
-      <div class="ui-g-12 ui-md-6 ui-fluid">
+      <div class="p-col-12 p-md-6 p-fluid">
           <label>Cidade</label>
 
           <p-dropdown placeholder="Selecione..."
@@ -90,15 +90,15 @@
             text="Informe a cidade"></app-message>
         </div>
 
-      <div class="ui-g-12">
+      <div class="p-col-12">
         <p-panel header="Contatos">
           <app-pessoa-cadastro-contato [contatos]="pessoa.contatos"></app-pessoa-cadastro-contato>
         </p-panel>
       </div>
 
-      <div class="ui-g-12 cadastro-acoes">
+      <div class="p-col-12 cadastro-acoes">
         <button pButton type="submit" label="Salvar" [disabled]="f.invalid"></button>
-        <button pButton type="button" label="Nova" class="ui-button-info"
+        <button pButton type="button" label="Nova" class="p-button-info"
           (click)="nova(f)"></button>
 
         <a routerLink="/pessoas">Voltar para a pesquisa</a>

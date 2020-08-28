@@ -14,9 +14,10 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-a.ui-button:hover {
+a.p-button:hover {
   background-color: #005b9f;
   color: white!important;
+  text-decoration: none;
 }
 
 a, button {
@@ -27,20 +28,24 @@ label {
   font-weight: bold;
 }
 
-.ui-dropdown-filter-container {
+.p-dropdown-filter-container {
   width: 100%;
+}
+
+.container {
+  width: calc(100% - 20px);
+  margin: 0 auto;
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
-    margin: 0 auto;
   }
 }
 
 .col-valor {
   width: 120px;
-  text-align: right;
+  text-align: right !important;
 }
 
 .col-valor-header {
@@ -49,7 +54,7 @@ label {
 
 .col-data {
   width: 120px;
-  text-align: center;
+  text-align: center !important;
 }
 
 .col-data-header {
@@ -57,15 +62,15 @@ label {
 }
 
 .col-acoes {
-  width: 100px;
-  text-align: center;
+  width: 115px;
+  text-align: center !important;
 }
 
 .col-acoes-header {
-  width: 100px;
+  width: 115px;
 }
 
-.col-acoes .ui-button {
+.col-acoes .p-button {
   margin: 1px;
 }
 
@@ -73,7 +78,7 @@ label {
   margin: 5px;
 }
 
-.cadastro-acoes .ui-button {
+.cadastro-acoes .p-button {
   margin-right: 5px;
 }
 

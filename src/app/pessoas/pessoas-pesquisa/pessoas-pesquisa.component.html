@@ -1,18 +1,18 @@
 <div class="container">
-  <div class="ui-g">
+  <div class="p-grid">
 
     <form autocomplete="off" (ngSubmit)="pesquisar()">
 
-      <div class="ui-g-12">
+      <div class="p-col-12">
         <h1>Pessoas</h1>
       </div>
 
-      <div class="ui-g-12 ui-fluid">
+      <div class="p-col-12 p-fluid">
         <label>Nome</label>
         <input pInputText type="text" name="nome" [(ngModel)]="filtro.nome">
       </div>
 
-      <div class="ui-g-12">
+      <div class="p-col-12">
         <button pButton type="submit" label="Pesquisar"></button>
       </div>
 
@@ -20,8 +20,8 @@
 
   </div>
 
-  <div class="ui-g">
-    <div class="ui-g-12">
+  <div class="p-grid">
+    <div class="p-col-12">
       <p-table [value]="pessoas" [responsive]="true"
         [paginator]="true" [rows]="filtro.itensPorPagina"
         [lazy]="true" [totalRecords]="totalRegistros"
@@ -72,7 +72,7 @@
       </p-table>
     </div>
 
-    <div class="ui-g-12">
+    <div class="p-col-12">
       <a pButton label="Nova Pessoa" routerLink="/pessoas/nova"></a>
     </div>
   </div>
