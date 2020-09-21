@@ -31,15 +31,12 @@
     ng update @angular/cdk
     ```
 
-1. Adicionar as folhas de estilo do PrimeNG:
+1. Atualizar o PrimeNG e o PrimeIcons:
 
-    ```json
-    "styles": [
-      "node_modules/primeicons/primeicons.css",
-      "node_modules/primeng/resources/themes/saga-blue/theme.css",
-      "node_modules/primeng/resources/primeng.min.css",
-      // ...
-    ],
+    ```
+    ng update primeng primeicons
+    git add .
+    git commit ...
     ```
 
 1. Instalar a dependência PrimeFlex:
@@ -48,13 +45,16 @@
     npm install primeflex --save
     ```
 
-1. Adicionar a folha de estilo do PrimeFlex:
+1. Adicionar as folhas de estilo do PrimeNG:
 
     ```json
     "styles": [
+      "node_modules/primeicons/primeicons.css",
       "node_modules/primeflex/primeflex.css",
+      "node_modules/primeng/resources/themes/saga-blue/theme.css",
+      "node_modules/primeng/resources/primeng.min.css",
       // ...
-    ]
+    ],
     ```
 
 1. Atualizar as classes CSS do PrimeNG:
